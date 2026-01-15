@@ -109,9 +109,9 @@ export default function App() {
     <div style={{ minHeight: "100vh", display: "flex", justifyContent: "center", alignItems: "center", backgroundColor: "#f5f5f5", padding: "20px" }}>
       <div style={{ width: "100%", maxWidth: 800, textAlign: "center", background: "white", padding: "40px", borderRadius: "12px", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
         <h1>
-          <img src="/egogram_illustrations_brain.png" alt="brain" style={{ width: 50, marginRight: 20 }} />
+          <img src="./egogram_illustrations_brain.png" alt="brain" style={{ width: 50, marginRight: 20 }} />
           エゴグラム診断
-          <img src="/egogram_illustrations_5types.png" alt="5types" style={{ width: 200, marginLeft: 20 }} />
+          <img src="./egogram_illustrations_5types.png" alt="5types" style={{ width: 200, marginLeft: 20 }} />
         </h1>
         {step === "start" && (
           <>
@@ -132,7 +132,7 @@ export default function App() {
         {step === "question" && currentQuestion && (
           <>
             <div style={{ fontSize: 18, marginBottom: 10 }}>
-              <img src="/egogram_illustrations_list.png" alt="list" style={{ width: 30, verticalAlign: "middle", marginRight: 8 }} />
+              <img src="./egogram_illustrations_list.png" alt="list" style={{ width: 30, verticalAlign: "middle", marginRight: 8 }} />
               質問 {currentIndex + 1} / {questions.length}
             </div>
 
@@ -241,7 +241,7 @@ export default function App() {
                 （　　）年（　　）組　氏名（　　　　　　　　）
               </p>
               <h3>
-              <img src="/egogram_illustrations_notice.png" alt="notice" style={{ width: 50, marginRight: 20 }} />
+              <img src="./egogram_illustrations_notice.png" alt="notice" style={{ width: 50, marginRight: 20 }} />
                 エゴグラム診断 結果レポート（学習用）
               </h3>
               <ul style={{ textAlign: "left" }}>
@@ -349,7 +349,7 @@ export default function App() {
                       {/* 右側：画像（30%） */}
                       <div style={{ flex: "0 0 30%", textAlign: "center" }}>
                         <img 
-                          src={`/egogram_illustrations_type_${i}.png`} 
+                          src={`./egogram_illustrations_type_${i}.png`} 
                           alt={t}
                           style={{ alignItems: "center", width: "40%", height: "auto", borderRadius: "8px" }}
                         />
