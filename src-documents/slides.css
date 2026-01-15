@@ -1,0 +1,14 @@
+section.split div.split_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+section.split div.left > {
+  width: 68%;
+}
+
+section.split div.right > {
+  width: 28%;
+}
