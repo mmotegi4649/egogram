@@ -216,14 +216,6 @@ export default function App() {
 
         {step === "confirm" && (
           <>
-            {/* <h2>回答の確認</h2>
-            <div style={{ textAlign: "left", maxHeight: "400px", overflowY: "auto", border: "1px solid #eee", padding: "20px", marginBottom: "20px" }}>
-              {questions.map((q, i) => (
-                <div key={q.id} style={{ marginBottom: "10px", borderBottom: "1px solid #f9f9f9" }}>
-                  {i + 1}. {q.text} → <strong>{answers[q.id]}</strong>
-                </div>
-              ))}
-            </div> */}
             <button onClick={() => setStep("question")} style={{ marginRight: "10px", padding: "10px 20px" }}>修正する</button>
             <button 
               onClick={() => setStep("result")} 

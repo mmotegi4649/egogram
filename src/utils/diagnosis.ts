@@ -6,8 +6,8 @@ type Scores = {
   AC: number;
 };
 
-const HIGH = 40;
-const LOW = 25;
+const HIGH = 80;
+const LOW = 50;
 
 export function generateComment(scores: Scores): string[] {
   const comments: string[] = [];
